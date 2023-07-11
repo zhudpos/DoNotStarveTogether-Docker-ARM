@@ -2,7 +2,7 @@ FROM weilbyte/box
 
 #Install steamcmd
 
-RUN apt update -y && apt install curl -y && apt install software-properties-common -y && add-apt-repository multiverse && dpkg --add-architecture i386 && apt update -y && apt install lib32gcc1 -y &&  apt install libcurl4-gnutls-dev:i386 -y
+RUN apt update -y && apt install curl -y && apt-get install libgcc1 -y
 
 WORKDIR /root/steam
 RUN curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
