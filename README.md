@@ -1,4 +1,4 @@
-# SCPSL-Docker-ARM
+# DoNotStarveTogether-Docker-ARM
 
 Docker file to build an image with steamcmd, box64, box86, and DoNotstraveTogether server for ARM
 
